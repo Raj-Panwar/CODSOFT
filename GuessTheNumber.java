@@ -58,6 +58,8 @@ public class GuessTheNumber {
         System.out.println("\n Welcome to the Guess the Number Game ");
         System.out.println("_________________________________________");
 
+        System.out.println("ATTEMPTS PER ROUND----> "+ 10);
+
         while (playAgain) {
             totalRoundsWon += playRound();
             System.out.println("\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
@@ -79,3 +81,4 @@ public class GuessTheNumber {
 
     
 }
+
